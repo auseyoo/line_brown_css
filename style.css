@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #2db400; }
+
+.brown {
+  position: absolute;
+  left: 100px;
+  width: 400px;
+  overflow: hidden; }
+  .brown .brown_inner {
+    position: relative;
+    height: 390px; }
+    .brown .brown_inner .head {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+      width: 247px;
+      height: 215px;
+      margin: auto;
+      border-radius: 50%;
+      box-sizing: border-box;
+      box-shadow: -1px 5px 0 0.5px #4E302A;
+      background: #6C483B;
+      transform: rotate(-7deg); }
+      .brown .brown_inner .head .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2; }
+        .brown .brown_inner .head .face .face_cont {
+          position: absolute;
+          top: -7%;
+          left: -4%;
+          width: 100%;
+          height: 100%; }
+          .brown .brown_inner .head .face .face_cont .ear {
+            overflow: hidden;
+            position: absolute;
+            top: -5%;
+            left: 48px;
+            width: 164px;
+            height: 64px; }
+            .brown .brown_inner .head .face .face_cont .ear .left {
+              float: left;
+              width: 35px;
+              height: 28px;
+              background: #4E302A;
+              border: 10px solid #6C483B;
+              border-radius: 50% 50% 20% 20%;
+              transform: rotate(-25deg); }
+            .brown .brown_inner .head .face .face_cont .ear .right {
+              float: right;
+              width: 35px;
+              height: 28px;
+              background: #4E302A;
+              border: 10px solid #6C483B;
+              border-radius: 50% 50% 20% 20%;
+              transform: rotate(25deg); }
+          .brown .brown_inner .head .face .face_cont .eyes {
+            overflow: hidden;
+            position: absolute;
+            top: 95px;
+            left: 44%;
+            width: 19%; }
+            .brown .brown_inner .head .face .face_cont .eyes .eye {
+              width: 17px;
+              height: 17px;
+              background: #000;
+              border-radius: 80%; }
+            .brown .brown_inner .head .face .face_cont .eyes .eye.left {
+              float: left; }
+            .brown .brown_inner .head .face .face_cont .eyes .eye.right {
+              float: right; }
+          .brown .brown_inner .head .face .face_cont .bottom {
+            position: absolute;
+            top: 113px;
+            left: 107px;
+            width: 51px;
+            height: 63px;
+            background: #E2C9BC;
+            border-radius: 50%; }
+            .brown .brown_inner .head .face .face_cont .bottom .nose {
+              position: absolute;
+              top: 15%;
+              left: 29%;
+              width: 8px;
+              height: 3px;
+              border: 6px solid #000;
+              border-radius: 37% 61% 60% 82% / 22% 8% 88% 81%;
+              background: #000; }
+              .brown .brown_inner .head .face .face_cont .bottom .nose .nose_line {
+                position: absolute;
+                top: 100%;
+                left: 38%;
+                width: 4px;
+                height: 20px;
+                background: #000; }
+            .brown .brown_inner .head .face .face_cont .bottom .mouth {
+              position: absolute;
+              top: 32px;
+              left: 28px; }
+              .brown .brown_inner .head .face .face_cont .bottom .mouth .left {
+                position: absolute;
+                top: 9px;
+                left: -20px;
+                width: 23px;
+                height: 4px;
+                background: #000;
+                border-radius: 5px;
+                transform: rotate(118deg); }
+              .brown .brown_inner .head .face .face_cont .bottom .mouth .right {
+                top: 10%;
+                z-index: 1;
+                width: 5px;
+                height: 16px;
+                background: #000;
+                border-radius: 5px;
+                transform: rotate(-40deg); }
+
+/*# sourceMappingURL=style.css.map */
